@@ -1,0 +1,2 @@
+Timestamp,Total Requests,Number of 301 error found,Percentage of 301,Number of 304 error found,Percentage of 304,Number of 401 error found,Percentage of 401,Number of 403 error found,Percentage of 403,Number of 404 error found,Percentage of 404,Number of 405 error found,Percentage of 405,Number of 501 error found,Percentage of 501,Number of 502 error found,Percentage of 502,Number of 503 error found,Percentage of 503,Number of 504 error found,Percentage of 504
+1680421725,357161,94,0.0263%,0,0%,1,0.0003%,7,0.0020%,0,0%,43,0.0120%,1,0.0003%,0,0%,0,0%,0,0%

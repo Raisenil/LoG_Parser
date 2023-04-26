@@ -1,0 +1,5 @@
+need to ask about 150 and "PRI" error type
+Shell Script-
+-test0.sh:this code is made by me
+-test1.sh:this code is optimized by Chatgpt
+-test2.sh:this code put output to csv of test1.sh
