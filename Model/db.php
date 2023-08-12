@@ -3,7 +3,7 @@
 	$HOST			= 'localhost';
 	$DB_USERNAME 	= 'root';
 	$DB_PASSWORD 	= '';
-	$DB_NAME 		= 'test';
+	$DB_NAME 		= 'log_parser';
 
 
 	function getConnection(){
