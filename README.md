@@ -19,7 +19,7 @@ Table of Contents
 
 Welcome to the documentation for the LoG Parser service Website. This service is designed to parse NGINX access logs, categorize requests by their HTTP methods (POST, GET, OPTIONS, HEAD, PUT, DELETE, PATCH), generate a CSV file, and store the parsed data in a database. The service is developed using PHP.
 
-<img src="Images/view_table.png" alt="nginx_data">
+<img src="Images/table.png" alt="nginx_data">
 
 2\. Installation
 ----------------
