@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 12, 2023 at 04:05 PM
+-- Generation Time: Aug 14, 2023 at 05:34 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -41,26 +41,26 @@ CREATE TABLE `log` (
 --
 
 INSERT INTO `log` (`id`, `Timestamp`, `Request_Name`, `Status`, `Count`, `Host_Name`) VALUES
-(81, '2023-08-12 20:03:38', 'GET', '301', 36, 'Raisenil'),
-(82, '2023-08-12 20:03:38', 'GET', '200', 9396, 'Raisenil'),
-(83, '2023-08-12 20:03:38', 'GET', '403', 92, 'Raisenil'),
-(84, '2023-08-12 20:03:38', 'GET', '302', 11, 'Raisenil'),
-(85, '2023-08-12 20:03:38', 'GET', '405', 1, 'Raisenil'),
-(86, '2023-08-12 20:03:38', 'GET', '499', 4, 'Raisenil'),
-(87, '2023-08-12 20:03:38', 'GET', '404', 1, 'Raisenil'),
-(88, '2023-08-12 20:03:38', 'POST', '200', 346731, 'Raisenil'),
-(89, '2023-08-12 20:03:38', 'POST', '400', 824, 'Raisenil'),
-(90, '2023-08-12 20:03:38', 'POST', '403', 2, 'Raisenil'),
-(91, '2023-08-12 20:03:38', 'POST', '301', 1, 'Raisenil'),
-(92, '2023-08-12 20:03:38', 'POST', '404', 6, 'Raisenil'),
-(93, '2023-08-12 20:03:38', 'POST', '502', 1, 'Raisenil'),
-(94, '2023-08-12 20:03:38', 'POST', '307', 3, 'Raisenil'),
-(95, '2023-08-12 20:03:38', 'POST', '499', 1, 'Raisenil'),
-(96, '2023-08-12 20:03:38', 'HEAD', '302', 14, 'Raisenil'),
-(97, '2023-08-12 20:03:38', 'HEAD', '200', 23, 'Raisenil'),
-(98, '2023-08-12 20:03:38', 'HEAD', '301', 5, 'Raisenil'),
-(99, '2023-08-12 20:03:38', 'OPTIONS', '301', 1, 'Raisenil'),
-(100, '2023-08-12 20:03:38', 'OPTIONS', '400', 2, 'Raisenil');
+(181, '2023-08-14 20:49:31', 'GET', '301', 36, 'Raisenil'),
+(182, '2023-08-14 20:49:31', 'GET', '200', 9396, 'Raisenil'),
+(183, '2023-08-14 20:49:31', 'GET', '403', 92, 'Raisenil'),
+(184, '2023-08-14 20:49:31', 'GET', '302', 11, 'Raisenil'),
+(185, '2023-08-14 20:49:31', 'GET', '405', 1, 'Raisenil'),
+(186, '2023-08-14 20:49:31', 'GET', '499', 4, 'Raisenil'),
+(187, '2023-08-14 20:49:31', 'GET', '404', 1, 'Raisenil'),
+(188, '2023-08-14 20:49:31', 'POST', '200', 346731, 'Raisenil'),
+(189, '2023-08-14 20:49:31', 'POST', '400', 824, 'Raisenil'),
+(190, '2023-08-14 20:49:31', 'POST', '403', 2, 'Raisenil'),
+(191, '2023-08-14 20:49:31', 'POST', '301', 1, 'Raisenil'),
+(192, '2023-08-14 20:49:31', 'POST', '404', 6, 'Raisenil'),
+(193, '2023-08-14 20:49:31', 'POST', '502', 1, 'Raisenil'),
+(194, '2023-08-14 20:49:31', 'POST', '307', 3, 'Raisenil'),
+(195, '2023-08-14 20:49:31', 'POST', '499', 1, 'Raisenil'),
+(196, '2023-08-14 20:49:31', 'HEAD', '302', 14, 'Raisenil'),
+(197, '2023-08-14 20:49:31', 'HEAD', '200', 23, 'Raisenil'),
+(198, '2023-08-14 20:49:31', 'HEAD', '301', 5, 'Raisenil'),
+(199, '2023-08-14 20:49:31', 'OPTIONS', '301', 1, 'Raisenil'),
+(200, '2023-08-14 20:49:31', 'OPTIONS', '400', 2, 'Raisenil');
 
 --
 -- Indexes for dumped tables
@@ -80,7 +80,7 @@ ALTER TABLE `log`
 -- AUTO_INCREMENT for table `log`
 --
 ALTER TABLE `log`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=201;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
