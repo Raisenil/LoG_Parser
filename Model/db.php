@@ -5,6 +5,8 @@
 	$DB_PASSWORD 	= '';
 	$DB_NAME 		= 'log_parser';
 
+	$filename 		= "../Purging_Script/access.log";
+
 
 	function getConnection(){
 		global $HOST;

@@ -1,37 +1,10 @@
 <?php
+//DB Connection
+require_once('../model/db.php');
+
 //Data Purging
 $method_counts = array("GET" => array(), "POST" => array(), "HEAD" => array(), "OPTIONS" => array(), "PUT" => array(), "DELETE" => array(), "PATCH" => array());
 
-// $filename = "access.log";
-// if (file_exists($filename)) {
-//     $file = fopen($filename, "r");
-//     while (!feof($file)) {
-//         $line = fgets($file);
-//         $match = preg_match('/(\d+\.\d+\.\d+\.\d+)\s-\s-\s\[(.*?)\]\s"(GET|POST|HEAD|OPTIONS|PUT|DELETE|PATCH)\s(.*?)\.\d"\s(\d+)\s(\d+)\s"-"\s\"(\d+\.\d+\.\d+\.\d+\:\d+)"\s"(.+)"\s"(\d+\.\d+\.\d+\.\d+)"\s/', $line, $matches);
-//         if ($match) {
-//             $ip = $matches[1];
-//             $timestamp = $matches[2];
-//             $method = $matches[3];
-//             $path = $matches[4];
-//             $status_code = $matches[5];
-//             $size_of_response = $matches[6];
-//             $user_agent= $matches[7];
-//             $handle_request=$matches[8];
-//             $host_ip=$matches[9];
-//             if (array_key_exists($method, $method_counts)) {
-//                 if (!array_key_exists($status_code, $method_counts[$method])) {
-//                     $method_counts[$method][$status_code] = 1;
-//                 } else {
-//                     $method_counts[$method][$status_code]++;
-//                 }
-//             }
-//         }
-//     }
-//     fclose($file);
-// }
-
-
-$filename = "../Purging_Script/access.log";
 if (file_exists($filename)) {
     $file = fopen($filename, "r");
     while (!feof($file)) {
@@ -54,6 +27,7 @@ if (file_exists($filename)) {
     }
     fclose($file);
 }
+
 //gethostname
 $host_name = gethostname();
 
@@ -72,9 +46,6 @@ if ($output_file) {
     }
     fclose($output_file);
 }
-
-//DB Connection
-require_once('../model/db.php');
 
 //DB Previous data deletion
 $conn = getConnection();
