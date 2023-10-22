@@ -92,6 +92,6 @@ The parsed data is used to generate a CSV file named `Purging_Script/CSV/log.csv
 9\. Conclusion
 --------------
 
-Congratulations! You've successfully set up and configured the LoG Parser. This service will parse the NGINX access log, categorize requests by HTTP methods, generate a CSV file, and store the parsed data in a database. If you have any questions or encounter issues, refer to this documentation or reach out to our support team.
+Congratulations! You've successfully set up and configured the LoG Parser. This service will parse the NGINX access log, categorize requests by HTTP methods, generate a CSV file, and store the parsed data in a database. If you have any questions or encounter issues, refer to this documentation or reach out to me.
 
 For further updates and enhancements, please refer to the GitHub repository: [GitHub Repository](https://github.com/Raisenil/LoG_Parser.git)
